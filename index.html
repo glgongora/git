@@ -17,99 +17,73 @@
 <body>
 
     <header>
-        <div>
-            <a href="#">
-                    <img src="https://placehold.it/100x100" alt="">
+        <div class="fondoLogo">
+            <a href="index.html">
+                    <img src="imagenes/Capture1.PNG" class="logo" alt="logoDeLaPagina">
             </a>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light menu">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">Menu
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="comprar.html">COMPRAR</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="artistas.html">DESCUBRI ARTISTAS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="empresa.html">LA EMPRESA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contactos.html">CONTACTO</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-        </nav>
+        <ul class="nav justify-content-center menu">
+          <li class="nav-item">
+            <a class="nav-link active menu" aria-current="page" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="comprar.html">COMPRAR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="artistas.html">DESCUBRI ARTISTAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="empresa.html">LA EMPRESA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="contactos.html">CONTACTO</a>
+          </li>
+        </ul>
     </header>
 
-    <p class="h1 tituloPaginaPrincipal">Conoce nuestras obras de arte</p>
-    <main id="imagenes">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3"><img src="imagenes/proyecto.png" class="img-fluid imagenUno" alt="primerImagen"></div>
-                <div class="col-sm-3"><img src="imagenes/proyecto1.png" class="img-fluid imagenDos" alt="segundaImagen"></div>
-                <div class="col-sm-3"><img src="imagenes/proyecto2.png" class="img-fluid imagenTres" alt="tercerImagen"></div>
-                <div class="col-sm-3"><img src="imagenes/proyecto3.png" class="img-fluid imagenCuatro" alt="cuartaImagen"></div>
-            </div>
-        </div>      
-    </main>
+    <main id="fondo">
+      <section id="primerDiapositiva">
+          <div class="col-sm-3 imagenUno"><img src="imagenes/proyecto.png" class="img-fluid" alt="primerImagen"></div>
+          <div class="diapositivaDiv">
+            <h1>¡Hola, somos Tu arte!</h1>
+            <p>Una pagina especializada en la venta de obras de arte, cuadros, esculturas, fotografias y demas. Oficiamos de intermediarios entre artistas y personas amantes del arte</p>
+          </div>
+      </section>
+    
+      <section id="segundaDiapositiva">
+        <div class="col-sm-3 imagenUno"><img src="imagenes/proyecto1.png" class="img-fluid" alt="primerImagen"></div>
+        <div class="diapositivaDiv">
+          <h1>¡Hola, somos Tu arte!</h1>
+          <p>Una pagina especializada en la venta de obras de arte, cuadros, esculturas, fotografias y demas. Oficiamos de intermediarios entre artistas y personas amantes del arte</p>
+        </div>
+      </section>
 
+      <section id="tercerDiapositiva">
+        <div class="col-sm-3 imagenUno"><img src="imagenes/proyecto2.png" class="img-fluid" alt="primerImagen"></div>
+        <div class="diapositivaDiv">
+          <h1>¡Hola, somos Tu arte!</h1>
+          <p>Una pagina especializada en la venta de obras de arte, cuadros, esculturas, fotografias y demas. Oficiamos de intermediarios entre artistas y personas amantes del arte</p>
+        </div>
+      </section>
+
+      <section id="cuartaDiapositiva">
+        <div class="col-sm-3 imagenUno"><img src="imagenes/proyecto3.png" class="img-fluid" alt="primerImagen"></div>
+        <div class="diapositivaDiv">
+          <h1>¡Hola, somos Tu arte!</h1>
+          <p>Una pagina especializada en la venta de obras de arte, cuadros, esculturas, fotografias y demas. Oficiamos de intermediarios entre artistas y personas amantes del arte</p>
+        </div>
+      </section>     
+    </main>
 
     <footer>
         <nav>
-            <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="comprar.html">COMPRAR</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="artistas.html">DESCUBRI ARTISTAS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="empresa.html">LA EMPRESA</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="contactos.html">CONTACTO</a>
-                </li>
-              </ul>
-            <div>
-                <h2>Suscribite a nuestro newsletter</h2>
-                
-                <form action="#">
-                    <nav class="navbar navbar-light bg-light">
-                        <div class="container-fluid">
-                          <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="TuArte@gmail.com" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Suscribirme</button>
-                          </form>
-                        </div>
-                      </nav>
-                </form>
-                <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          NUESTRAS REDES
-                        </a>
-                      
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <li><a class="dropdown-item" href="#">Instagram</a></li>
-                          <li><a class="dropdown-item" href="#">WhatsApp</a></li>
-                          <li><a class="dropdown-item" href="#">Facebook</a></li>
-                        </ul>
-                </div>
-            </div>
+          <div>
+            <p>Suscripciones por la pagina de <a href="contactos.html" class="redes">contactos</a></p>
+          </div>
+          <div>
+            <p class="buscanos">Buscanos en <a href="*" class="redes">Instagram</a> y en <a href="*" class="redes">Facebook</a></p>
+          </div>
+
         </nav>
     </footer>
 

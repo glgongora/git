@@ -12,16 +12,17 @@ html {
 }
 
 /*header*/
-header {
-  background-color: whitesmoke;
+.fondoLogo {
+  background-color: #525050;
+}
+
+.logo {
+  width: 200px;
 }
 
 .menu {
-  background-color: whitesmoke;
-}
-
-.btn {
-  margin-top: 15px;
+  background-color: #525050;
+  color: white;
 }
 
 /*footer*/
@@ -40,26 +41,25 @@ footer {
       justify-content: space-around;
   padding: 1em;
   text-align: left;
-  background: whitesmoke;
-  color: black;
+  background: #525050;
+  color: white;
+  font-size: 25px;
 }
 
-footer h2 {
-  margin: .5em;
+.buscanos {
+  font-size: 20px;
 }
 
-footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+.redes {
+  color: white;
 }
 
-.footerForm form {
-  margin-bottom: 0;
+/*paginaInicio*/
+#fondo {
+  background-color: whitesmoke;
+}
+
+#primerDiapositiva {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,89 +67,63 @@ footer ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
 }
 
-.footerForm input {
-  margin: 0;
-  padding: .5em;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.dropdown {
-  margin-top: 20px;
-}
-
-/*main*/
-.tituloPaginaPrincipal {
-  color: black;
-  font-size: 30px;
-  font-weight: normal;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  margin-top: 20px;
-}
-
-#imagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-bottom: 20px;
+.diapositivaDiv {
+  margin-left: 50px;
 }
 
 .imagenUno {
-  width: 200px;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-.imagenDos {
-  width: 200px;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-.imagenTres {
-  width: 200px;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-.imagenCuatro {
-  width: 200px;
+  width: 250px;
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
 .imagenUno:hover {
   width: 300px;
-  margin-left: 50px;
 }
 
-.imagenDos:hover {
-  width: 300px;
+#segundaDiapositiva {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
 }
 
-.imagenTres:hover {
-  width: 300px;
+#tercerDiapositiva {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
 }
 
-.imagenCuatro:hover {
-  width: 300px;
-  margin-right: 50px;
+#cuartaDiapositiva {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #chequeo {
